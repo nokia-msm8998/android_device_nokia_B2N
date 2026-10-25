@@ -1,6 +1,6 @@
-# Inherit some common Lineage stuff
+# Inherit some common AOSP stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device
@@ -10,7 +10,7 @@ PRODUCT_BRAND := Nokia
 PRODUCT_DEVICE := B2N
 PRODUCT_MANUFACTURER := HMD Global
 PRODUCT_MODEL := Nokia 7 plus
-PRODUCT_NAME := lineage_B2N
+PRODUCT_NAME := custom_B2N
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="Onyx_00WW-user 10 QKQ1.190828.002 00WW_4_16B release-keys" \
