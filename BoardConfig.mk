@@ -17,6 +17,7 @@
 DEVICE_PATH := device/nokia/B2N
 
 # Audio
+AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 BOARD_USES_ALSA_AUDIO := true
 
 # Partitions
